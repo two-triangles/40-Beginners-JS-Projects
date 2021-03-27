@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <script src="./index.js" defer></script>
+
+    <title>Review Carousel</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="title">
+        <h2>Our Reviews</h2>
+        <div class="underline"></div>
+      </div>
+
+      <article class="review">
+        <div class="img_container">
+          <img
+            src="./img/Bob.jpeg"
+            alt="a picture of bob"
+            id="person_img"
+            width="150px"
+          />
+        </div>
+        <h4 id="author">Bob Smith</h4>
+        <p id="job">Profession Clown</p>
+        <p id="info">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+          officiis quis provident, incidunt modi nam accusamus ipsum atque fuga,
+          culpa nobis facilis. Non aliquid neque numquam impedit nihil dolorem
+          autem perferendis ratione similique unde veritatis aperiam nesciunt
+          id, quisquam architecto?
+        </p>
+      </article>
+
+      <div class="button_container">
+        <button class="prev_btn select_button">
+          <div class="fa fa-arrow-left"></div>
+        </button>
+        <button class="next_btn select_button">
+          <div class="fa fa-arrow-right"></div>
+        </button>
+      </div>
+      <button class="random_btn">Surprise Me</button>
+    </section>
+  </body>
+</html>

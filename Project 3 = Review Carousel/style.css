@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Montserrat-Light";
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_aZA3gnD_vx3rCs.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_cJD3gnD_vx3rCs.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaf7fa;
+  cursor: pointer;
+}
+
+section.container {
+  width: 60%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 15px;
+  font-family: Montserrat;
+}
+
+.underline {
+  background-color: #68c3d7;
+  height: 10px;
+  width: 16 0px;
+  margin: 10px 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+article.review {
+  margin: 20px;
+  padding: 20px;
+  height: auto;
+}
+
+article p.info {
+  margin: 25px 0;
+}
+
+img#person_img {
+  margin: 25px 0;
+  border-radius: 100%;
+}
+
+p#job {
+  color: #68c3d7;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+/*  button styling  */
+
+.select_button {
+  width: 70px;
+  height: 50px;
+  font-size: 2rem;
+  color: #68c3d7;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+.random_btn {
+  color: #68c3d7;
+  font-size: 1.5rem;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #68c3d7;
+}
+
+.random_btn:hover {
+  color: #ffffff;
+  padding: 10px;
+  background-color: #68c3d7;
+  border: 1px solid #68c3d7;
+  cursor: pointer;
+}
